@@ -1,0 +1,35 @@
+/* Estilo para o body */
+body
+    display: flex;
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    justify-content: center; /* Centraliza no eixo vertical */
+    align-items: center; /* Centraliza no eixo horizontal */
+    height: 100vh; /* Faz o body ocupar 100% da altura da tela */
+    margin: 0; /* Remove a margem padrão */
+    text-align: center; /* Centraliza os textos */
+    background-image: url(nhe.avif);
+    background-size: cover;
+    background-position: center;
+
+/* Estilo para a div que contém a imagem */
+.imagem-container {
+    text-align: center; /* Garante que a imagem fique centralizada */
+}
+
+/* Estilo para as imagens */
+img {
+    max-width: Defina o tamanho da fonte; /* A imagem nunca ultrapassará a largura da tela */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para o título h1 */
+h1 {
+    color:rgb(10, 9, 9);
+    margin-top: Defina o tamanho da fonte; /* Espaço superior */
+}
+
+/* Estilo para o subtítulo h2 */
+h2 {
+    color:rgb(224, 102, 224);
+    margin-top: Defina o tamanho da fonte; /* Espaço superior */
+}
